@@ -1,0 +1,21 @@
+---
+title: "02 Aspectos diversos"
+---
+
+---
+Diretório de Trabalho
+---
+```{r}
+getwd()
+setwd("/Users/leonardoraiz/Library/Mobile Documents/com~apple~CloudDocs/CPQD/Cursos/Trilha Ciencia de Dados/CienciaDeDados/Modulo 1/R")
+if (!dir.exists("dados")) {
+  dir.create("dados")
+}
+```
+Tipo de Objeto
+```{r}
+class(iris)
+```
+Salvar um objeto
+```{r}
+```

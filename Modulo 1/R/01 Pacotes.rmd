@@ -1,0 +1,23 @@
+---
+Formação Cientista de Dados - Prof. Me. Leonardo Raiz
+Pacotes
+---
+
+```{r}
+install.packages("e1071")
+library(e1071)
+```
+
+```{r}
+#Descarregar Pacote
+detach("package:e1071", unload = TRUE)
+#remover
+remove.packages("e1071")
+
+```
+```{r}
+plot(iris[,1:4])
+print("Teste de R")
+iris2 = iris
+```
+
