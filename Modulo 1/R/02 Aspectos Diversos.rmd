@@ -18,4 +18,25 @@ class(iris)
 ```
 Salvar um objeto
 ```{r}
+#Clona
+irisTeste = iris
+#Salva
+save(irisTeste, file = "dados/irisTeste.Rdata")
+#remove a váriavel do R
+rm(irisTeste)
+#testa a remoção
+irisTeste
+```
+Carrega dados
+```{r}
+#carrega o objeto do disco
+load(file = "dados/irisTeste.Rdata")
+#Testa
+irisTeste
+```
+Vetor e gráfico básico de dispersão
+```{r}
+x = c(12, 34, 56, 79)
+y = c(1, 6, 9, 14)
+plot(x, y)
 ```
